@@ -62,6 +62,9 @@ int main(int argc, const char* argv[])
             ctx
     );
 
+    Lisp pi = lisp_make_real(3.141592);
+    lisp_env_define(lisp_cdr(lisp_env(ctx)), lisp_make_symbol("PI", ctx), pi, ctx);
+
     clock_t start_time, end_time;
 
     if (file_path)
