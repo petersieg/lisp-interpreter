@@ -1,6 +1,6 @@
 Some additional info's
 ----------------------
-´´´
+```
 ./lisp --load user.lsp = loads lisp file user.lsp as command line argument
 > (load "user.lsp") = loads lisp file user.lsp at runtime
 NIL
@@ -8,7 +8,7 @@ NIL
 55
 
 Real value PI = 3.141592 has been deined in the lisp interpreter (see repl.c)
-´´´
+```
 
 Lisp Interpreter
 ================
