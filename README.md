@@ -7,7 +7,7 @@ NIL
 '> (fib 10)
 55
 
-Real value PI = 3.141592 has been deined in the lisp interpreter (see repl.c)
+Real value PI = 3.141592 has been defined in the lisp interpreter (see repl.c)
 
 lisp.exe - Compiled with TDM-GCC 10.3.0 with: gcc repl.c -Idist/ -Wall -lm -o lisp
 
