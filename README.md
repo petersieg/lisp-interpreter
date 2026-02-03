@@ -9,7 +9,7 @@ NIL
 
 Real value PI = 3.141592 has been deined in the lisp interpreter (see repl.c)
 
-list.exe - Compiled with TDM-GCC 10.3.0 with: gcc repl.c -Idist/ -Wall -lm -o lisp
+lisp.exe - Compiled with TDM-GCC 10.3.0 with: gcc repl.c -Idist/ -Wall -lm -o lisp
 
 First I had -O3 etc inside compile string - but result shows lisp errors and the prompt, but doesn't work!?
 ```
